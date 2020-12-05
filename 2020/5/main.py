@@ -1,4 +1,6 @@
 import math
+from matplotlib import pyplot as plt
+from celluloid import Camera
 
 INPUT_FILE = "input.txt"
 
@@ -23,8 +25,51 @@ def main():
 
     print(max(ids))
 
-    empty = [seat for seat in range(max(ids)) if (seat - 1) in ids and (seat + 1) in ids and seat not in ids]
-    print(empty[0])
+    empty = [seat for seat in range(max(ids)) if (seat - 1) in ids and (seat + 1) in ids and seat not in ids][0]
+    print(empty)
+
+    plot_boarding(boarding_passes, empty)
+
+
+def plot_boarding(boarding_passes, empty):
+    fig = plt.figure()
+    ax = plt.axes()
+    ax.set_ylim(-1, 10)
+    ax.set_xlim(-2, 110)
+    camera = Camera(fig)
+    plt.pause(15)
+    for i in range(len(boarding_passes)):
+        draw_filled(ax, boarding_passes, i)
+        camera.snap()
+    draw_filled(ax, boarding_passes, len(boarding_passes))
+    draw_seat(ax, [empty % 8], [math.floor(empty / 8)], 'bo')
+    camera.snap()
+    animation = camera.animate()
+    animation.save('animation.gif', writer='PillowWriter', fps=30)
+
+
+def draw_filled(ax, boarding_passes, i):
+    rows = []
+    cols = []
+    for j in range(i):
+        boarding_pass = boarding_passes[j]
+        rows.append(binary_search(0, 127, boarding_pass[:7], "F", "B"))
+        cols.append(binary_search(0, 7, boarding_pass[-3:], "L", "R"))
+    draw_seat(ax, cols, rows, 'ro')
+
+
+def draw_seat(ax, cols, rows, style):
+    cols = list(map(map_seat, cols))
+    ax.plot(rows, cols, style)
+
+
+def map_seat(col):
+    if col in [6, 7]:
+        return col + 2
+    if col in [2, 3, 4, 5]:
+        return col + 1
+
+    return col
 
 
 def load_input():
