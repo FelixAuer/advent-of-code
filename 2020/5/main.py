@@ -25,7 +25,7 @@ def main():
 
     print(max(ids))
 
-    empty = [seat for seat in range(max(ids)) if (seat - 1) in ids and (seat + 1) in ids and seat not in ids][0]
+    empty = [seat for seat in range(min(ids), max(ids)) if seat not in ids][0]
     print(empty)
 
     plot_boarding(boarding_passes, empty)
