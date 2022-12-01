@@ -1,0 +1,16 @@
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\Console.exe
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\Console.deps.json
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\Console.runtimeconfig.json
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\Console.dll
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\Console.pdb
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.csproj.AssemblyReference.cache
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.AssemblyInfoInputs.cache
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.AssemblyInfo.cs
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.csproj.CoreCompileInputs.cache
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.dll
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\refint\Console.dll
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.pdb
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\Console.genruntimeconfig.cache
+C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\ref\Console.dll
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\01.txt
