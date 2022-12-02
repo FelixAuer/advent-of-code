@@ -3,5 +3,5 @@
 
 using Console.Days;
 
-var day = new Day01();
+var day = new Day02();
 day.Solve();

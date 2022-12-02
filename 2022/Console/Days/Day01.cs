@@ -7,8 +7,7 @@ public class Day01 : IDay
 {
     public void Solve()
     {
-        var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"inputs\01.txt");
-        var inputs = File.ReadAllLines(path);
+        var inputs = AoCHelper.ReadLines("01");
 
         var calories = new List<int>();
         var current = 0;
