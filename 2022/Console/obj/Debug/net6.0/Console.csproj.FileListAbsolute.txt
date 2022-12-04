@@ -16,3 +16,4 @@ C:\Users\Felix\Code\advent-of-code\2022\Console\obj\Debug\net6.0\ref\Console.dll
 C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\01.txt
 C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\02.txt
 C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\03.txt
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\04.txt
