@@ -11,6 +11,9 @@ var inputFiles = Directory.GetFiles(path, "*.txt")
     .ToArray();
 Array.Sort(inputFiles);
 var newest = inputFiles.Reverse().First();
+
+System.Console.WriteLine("Day " + newest);
+
 var className = "Console.Days.Day" + newest;
 var type = Type.GetType(className);
 var day = (IDay)Activator.CreateInstance(type);
