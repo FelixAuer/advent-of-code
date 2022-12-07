@@ -19,3 +19,4 @@ C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\03.txt
 C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\04.txt
 C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\05.txt
 C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\06.txt
+C:\Users\Felix\Code\advent-of-code\2022\Console\bin\Debug\net6.0\inputs\07.txt

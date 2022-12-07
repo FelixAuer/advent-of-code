@@ -6,7 +6,7 @@ using Console.Days;
 
 var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
     @"inputs");
-var inputFiles = Directory.GetFiles(path, "*.txt")
+var inputFiles = System.IO.Directory.GetFiles(path, "*.txt")
     .Select(Path.GetFileNameWithoutExtension)
     .ToArray();
 Array.Sort(inputFiles);
