@@ -10,4 +10,9 @@ public static class AoCHelper
             @"inputs\" + filename + ".txt");
         return File.ReadAllLines(path);
     }
+
+    public static int ToNumber(char c)
+    {
+        return c - 'a';
+    }
 }
