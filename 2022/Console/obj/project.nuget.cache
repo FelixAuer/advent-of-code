@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "A6ta26j5fo+p35sqxRM/f9VN6NKrLK293kq4+84w/hbL4ijNZz0szwL98PWWtop6Pbrt2UwHqCuTXqhIx7bpOQ==",
+  "dgSpecHash": "jFgvGclWn3yHJf4pcVgZQQNYq5UiqtWUj7Qnwxv6qiKdSg9xelFRBfUajIB2utBY3lQmRCDx/M0VYFgfe7pvig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felix\\Code\\advent-of-code\\2022\\Console\\Console.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\FelixAuer\\misc\\advent-of-code\\2022\\Console\\Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FelixAuer\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\FelixAuer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\FelixAuer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\FelixAuer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
