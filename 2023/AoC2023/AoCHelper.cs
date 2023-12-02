@@ -4,10 +4,10 @@ using System.Reflection;
 
 public static class AoCHelper
 {
-    public static string[] ReadLines(string filename)
+    public static string[] ReadLines(string filename, bool test = false)
     {
         var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
-            @"inputs\" + filename + ".txt");
+            (test ? @"tests\" : @"inputs\") + filename + ".txt");
         return File.ReadAllLines(path);
     }
 
