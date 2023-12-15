@@ -10,7 +10,7 @@ var inputFiles = Directory.GetFiles(path, "*.txt")
     .Select(Path.GetFileNameWithoutExtension)
     .ToArray();
 Array.Sort(inputFiles);
-var newest = inputFiles.Reverse().First();
+var newest = "12";//inputFiles.Reverse().First();
 
 System.Console.WriteLine("Day " + newest);
 
